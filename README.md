@@ -16,3 +16,20 @@ Licensed GPL-3.0-or-later.
 
 Tests replay real edits against local save backups (never committed):
 `ERSAVE_FIXTURES=~/.local/share/ps5-jb/saves uv run pytest`.
+
+## Setup
+
+```sh
+uv sync
+claude mcp add -s user elden-ring-save -- /opt/homebrew/bin/uv run --directory ~/src/side/er-save-mcp er-save-mcp
+```
+
+Use the absolute `uv` path: Claude Code doesn't start MCP servers with Homebrew on `PATH`.
+On the console: FTP (2121), PS5 Save Mounter (9090) and the Payload Manager (8084, for the
+game-running check) must be up. Backups go to `~/.local/share/ersave/backups/` (`ERSAVE_BACKUPS`).
+The host defaults to `192.168.1.63` (`ERSAVE_PS5_HOST`).
+
+## Not supported yet
+
+Loose Ashes of War, arrows/bolts, the storage box, attribute changes, PC `.sl2` saves,
+boss flags (on purpose).
