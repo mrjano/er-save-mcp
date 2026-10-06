@@ -234,10 +234,6 @@ class Editor:
         o = self.slot.event_flags + byte
         self.data[o] = (self.data[o] | (1 << bit)) if value else (self.data[o] & ~(1 << bit) & 0xFF)
 
-    def get_flag(self, flag: int) -> bool:
-        byte, bit = db.flag_position(int(flag))
-        return bool(self.data[self.slot.event_flags + byte] >> bit & 1)
-
     def unlock_grace(self, grace: str | int) -> None:
         g = db.resolve_grace(grace)
         if g["boss_arena"]:
