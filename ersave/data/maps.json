@@ -1,0 +1,146 @@
+[
+{
+"flag": 62010,
+"name": "Limgrave, West",
+"area": "Limgrave",
+"fragment": 1073750424
+},
+{
+"flag": 62011,
+"name": "Weeping Peninsula",
+"area": "Limgrave",
+"fragment": 1073750425
+},
+{
+"flag": 62012,
+"name": "Limgrave, East",
+"area": "Limgrave",
+"fragment": 1073750426
+},
+{
+"flag": 62020,
+"name": "Liurnia, East",
+"area": "Liurnia",
+"fragment": 1073750427
+},
+{
+"flag": 62021,
+"name": "Liurnia, North",
+"area": "Liurnia",
+"fragment": 1073750428
+},
+{
+"flag": 62022,
+"name": "Liurnia, West",
+"area": "Liurnia",
+"fragment": 1073750429
+},
+{
+"flag": 62030,
+"name": "Altus Plateau",
+"area": "Altus",
+"fragment": 1073750430
+},
+{
+"flag": 62031,
+"name": "Leyndell, Royal Capital",
+"area": "Altus",
+"fragment": 1073750431
+},
+{
+"flag": 62032,
+"name": "Mt. Gelmir",
+"area": "Altus",
+"fragment": 1073750432
+},
+{
+"flag": 62040,
+"name": "Caelid",
+"area": "Caelid",
+"fragment": 1073750433
+},
+{
+"flag": 62041,
+"name": "Dragonbarrow",
+"area": "Caelid",
+"fragment": 1073750434
+},
+{
+"flag": 62050,
+"name": "Mountaintops of the Giants, West",
+"area": "Mountaintops",
+"fragment": 1073750435
+},
+{
+"flag": 62051,
+"name": "Mountaintops of the Giants, East",
+"area": "Mountaintops",
+"fragment": 1073750436
+},
+{
+"flag": 62052,
+"name": "Consecrated Snowfield",
+"area": "Mountaintops",
+"fragment": 1073750442
+},
+{
+"flag": 62060,
+"name": "Ainsel River",
+"area": "Underground",
+"fragment": 1073750437
+},
+{
+"flag": 62061,
+"name": "Lake of Rot",
+"area": "Underground",
+"fragment": 1073750438
+},
+{
+"flag": 62062,
+"name": "Mohgwyn Palace",
+"area": "Underground",
+"fragment": 1073750440
+},
+{
+"flag": 62063,
+"name": "Siofra River",
+"area": "Underground",
+"fragment": 1073750439
+},
+{
+"flag": 62064,
+"name": "Deeproot Depths",
+"area": "Underground",
+"fragment": 1073750441
+},
+{
+"flag": 62080,
+"name": "Gravesite Plain",
+"area": "DLC",
+"fragment": 1075750424
+},
+{
+"flag": 62081,
+"name": "Scadu Altus",
+"area": "DLC",
+"fragment": 1075750425
+},
+{
+"flag": 62082,
+"name": "Southern Shore",
+"area": "DLC",
+"fragment": 1075750426
+},
+{
+"flag": 62083,
+"name": "Rauh Ruins",
+"area": "DLC",
+"fragment": 1075750427
+},
+{
+"flag": 62084,
+"name": "Abyss",
+"area": "DLC",
+"fragment": 1075750428
+}
+]

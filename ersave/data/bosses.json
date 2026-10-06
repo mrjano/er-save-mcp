@@ -1,0 +1,662 @@
+[
+{
+"flag": 9100,
+"name": "Margit, the Fell Omen",
+"region": "Stormveil Castle",
+"type": "main"
+},
+{
+"flag": 9101,
+"name": "Godrick the Grafted",
+"region": "Stormveil Castle",
+"type": "main"
+},
+{
+"flag": 9103,
+"name": "Grafted Scion",
+"region": "Chapel of Anticipation",
+"type": "field"
+},
+{
+"flag": 9104,
+"name": "Morgott, the Omen King",
+"region": "Leyndell, Royal Capital",
+"type": "main"
+},
+{
+"flag": 9105,
+"name": "Godfrey, First Elden Lord (Golden Shade)",
+"region": "Leyndell, Royal Capital",
+"type": "main"
+},
+{
+"flag": 9106,
+"name": "Sir Gideon Ofnir, the All-Knowing",
+"region": "Leyndell, Ashen Capital",
+"type": "main"
+},
+{
+"flag": 9107,
+"name": "Hoarah Loux, Warrior",
+"region": "Leyndell, Ashen Capital",
+"type": "main"
+},
+{
+"flag": 9108,
+"name": "Astel, Naturalborn of the Void",
+"region": "Grand Cloister",
+"type": "main"
+},
+{
+"flag": 9109,
+"name": "Dragonkin Soldier of Nokstella",
+"region": "Ainsel River",
+"type": "field"
+},
+{
+"flag": 9110,
+"name": "Valiant Gargoyles",
+"region": "Siofra Aqueduct",
+"type": "field"
+},
+{
+"flag": 9111,
+"name": "Lichdragon Fortissax",
+"region": "Deeproot Depths",
+"type": "main"
+},
+{
+"flag": 9112,
+"name": "Mohg, Lord of Blood",
+"region": "Mohgwyn Palace",
+"type": "main"
+},
+{
+"flag": 9114,
+"name": "Godskin Duo",
+"region": "Crumbling Farum Azula",
+"type": "main"
+},
+{
+"flag": 9115,
+"name": "Dragonlord Placidusax",
+"region": "Crumbling Farum Azula",
+"type": "main"
+},
+{
+"flag": 9116,
+"name": "Maliketh, the Black Blade",
+"region": "Crumbling Farum Azula",
+"type": "main"
+},
+{
+"flag": 9117,
+"name": "Red Wolf of Radagon",
+"region": "Academy of Raya Lucaria",
+"type": "main"
+},
+{
+"flag": 9118,
+"name": "Rennala, Queen of the Full Moon",
+"region": "Academy of Raya Lucaria",
+"type": "main"
+},
+{
+"flag": 9119,
+"name": "Loretta, Knight of the Haligtree",
+"region": "Miquella's Haligtree",
+"type": "main"
+},
+{
+"flag": 9120,
+"name": "Malenia, Blade of Miquella",
+"region": "Miquella's Haligtree",
+"type": "main"
+},
+{
+"flag": 9121,
+"name": "Godskin Noble",
+"region": "Volcano Manor",
+"type": "main"
+},
+{
+"flag": 9122,
+"name": "Rykard, Lord of Blasphemy",
+"region": "Volcano Manor",
+"type": "main"
+},
+{
+"flag": 9123,
+"name": "Elden Beast",
+"region": "Elden Throne",
+"type": "main"
+},
+{
+"flag": 9125,
+"name": "Mohg, the Omen",
+"region": "Subterranean Shunning-Grounds",
+"type": "field"
+},
+{
+"flag": 9126,
+"name": "Magma Wyrm Makar",
+"region": "Ruin-Strewn Precipice",
+"type": "field"
+},
+{
+"flag": 9128,
+"name": "Ulcerated Tree Spirit",
+"region": "Fringefolk Hero's Grave",
+"type": "field"
+},
+{
+"flag": 9129,
+"name": "Abductor Virgins",
+"region": "Volcano Manor",
+"type": "field"
+},
+{
+"flag": 9130,
+"name": "Starscourge Radahn",
+"region": "Redmane Castle",
+"type": "main"
+},
+{
+"flag": 9131,
+"name": "Fire Giant",
+"region": "Mountaintops of the Giants",
+"type": "main"
+},
+{
+"flag": 9132,
+"name": "Ancestor Spirit",
+"region": "Siofra River",
+"type": "field"
+},
+{
+"flag": 9133,
+"name": "Regal Ancestor Spirit",
+"region": "Ancestral Woods",
+"type": "main"
+},
+{
+"flag": 9134,
+"name": "Mimic Tear",
+"region": "Nokron, Eternal City",
+"type": "field"
+},
+{
+"flag": 9135,
+"name": "Fia's Champions",
+"region": "Deeproot Depths",
+"type": "field"
+},
+{
+"flag": 9173,
+"name": "Godskin Apostle",
+"region": "Divine Tower of Caelid",
+"type": "field"
+},
+{
+"flag": 9174,
+"name": "Fell Twins",
+"region": "Divine Tower of East Altus",
+"type": "field"
+},
+{
+"flag": 9180,
+"name": "Leonine Misbegotten",
+"region": "Castle Morne",
+"type": "field"
+},
+{
+"flag": 9181,
+"name": "Royal Knight Loretta",
+"region": "Carian Manor",
+"type": "field"
+},
+{
+"flag": 9182,
+"name": "Elemer of the Briar",
+"region": "The Shaded Castle",
+"type": "field"
+},
+{
+"flag": 9183,
+"name": "Crucible Knight & Misbegotten Warrior",
+"region": "Redmane Castle",
+"type": "field"
+},
+{
+"flag": 9184,
+"name": "Commander Niall",
+"region": "Castle Sol",
+"type": "field"
+},
+{
+"flag": 9200,
+"name": "Cemetery Shade",
+"region": "Tombsward Catacombs",
+"type": "field"
+},
+{
+"flag": 9201,
+"name": "Erdtree Burial Watchdog",
+"region": "Impaler's Catacombs",
+"type": "field"
+},
+{
+"flag": 9202,
+"name": "Erdtree Burial Watchdog",
+"region": "Stormfoot Catacombs",
+"type": "field"
+},
+{
+"flag": 9203,
+"name": "Black Knife Assassin",
+"region": "Deathtouched Catacombs",
+"type": "field"
+},
+{
+"flag": 9204,
+"name": "Grave Warden Duelist",
+"region": "Murkwater Catacombs",
+"type": "field"
+},
+{
+"flag": 9205,
+"name": "Cemetery Shade",
+"region": "Black Knife Catacombs",
+"type": "field"
+},
+{
+"flag": 9206,
+"name": "Spirit-Caller Snail",
+"region": "Road's End Catacombs",
+"type": "field"
+},
+{
+"flag": 9207,
+"name": "Erdtree Burial Watchdog",
+"region": "Cliffbottom Catacombs",
+"type": "field"
+},
+{
+"flag": 9208,
+"name": "Ancient Hero of Zamor",
+"region": "Sainted Hero's Grave",
+"type": "field"
+},
+{
+"flag": 9209,
+"name": "Red Wolf of the Champion",
+"region": "Gelmir Hero's Grave",
+"type": "field"
+},
+{
+"flag": 9210,
+"name": "Crucible Knight & Crucible Knight Ordovis",
+"region": "Auriza Hero's Grave",
+"type": "field"
+},
+{
+"flag": 9211,
+"name": "Perfumer Tricia & Misbegotten Warrior",
+"region": "Unsightly Catacombs",
+"type": "field"
+},
+{
+"flag": 9212,
+"name": "Erdtree Burial Watchdog",
+"region": "Wyndham Catacombs",
+"type": "field"
+},
+{
+"flag": 9213,
+"name": "Grave Warden Duelist",
+"region": "Auriza Side Tomb",
+"type": "field"
+},
+{
+"flag": 9214,
+"name": "Erdtree Burial Watchdogs",
+"region": "Minor Erdtree Catacombs",
+"type": "field"
+},
+{
+"flag": 9215,
+"name": "Cemetery Shade",
+"region": "Caelid Catacombs",
+"type": "field"
+},
+{
+"flag": 9216,
+"name": "Putrid Tree Spirit",
+"region": "War-Dead Catacombs",
+"type": "field"
+},
+{
+"flag": 9217,
+"name": "Ancient Hero of Zamor",
+"region": "Giant-Conquering Hero's Grave",
+"type": "field"
+},
+{
+"flag": 9218,
+"name": "Ulcerated Tree Spirit",
+"region": "Giants' Mountaintop Catacombs",
+"type": "field"
+},
+{
+"flag": 9219,
+"name": "Putrid Grave Warden Duelist",
+"region": "Consecrated Snowfield Catacombs",
+"type": "field"
+},
+{
+"flag": 9220,
+"name": "Stray Mimic Tear",
+"region": "Hidden Path to the Haligtree",
+"type": "field"
+},
+{
+"flag": 9221,
+"name": "Black Knife Assassin",
+"region": "Black Knife Catacombs",
+"type": "field"
+},
+{
+"flag": 9222,
+"name": "Esgar, Priest of Blood",
+"region": "Leyndell Catacombs",
+"type": "field"
+},
+{
+"flag": 9230,
+"name": "Miranda the Blighted Bloom",
+"region": "Tombsward Cave",
+"type": "field"
+},
+{
+"flag": 9231,
+"name": "Runebear",
+"region": "Earthbore Cave",
+"type": "field"
+},
+{
+"flag": 9233,
+"name": "Beastman of Farum Azula",
+"region": "Groveside Cave",
+"type": "field"
+},
+{
+"flag": 9234,
+"name": "Demi-Human Chiefs",
+"region": "Coastal Cave",
+"type": "field"
+},
+{
+"flag": 9235,
+"name": "Guardian Golem",
+"region": "Highroad Cave",
+"type": "field"
+},
+{
+"flag": 9236,
+"name": "Cleanrot Knight",
+"region": "Stillwater Cave",
+"type": "field"
+},
+{
+"flag": 9237,
+"name": "Bloodhound Knight",
+"region": "Lakeside Crystal Cave",
+"type": "field"
+},
+{
+"flag": 9238,
+"name": "Crystalian Duo",
+"region": "Academy Crystal Cave",
+"type": "field"
+},
+{
+"flag": 9239,
+"name": "Kindred of Rot Duo",
+"region": "Seethewater Cave",
+"type": "field"
+},
+{
+"flag": 9240,
+"name": "Demi-Human Queen Margot",
+"region": "Volcano Cave",
+"type": "field"
+},
+{
+"flag": 9241,
+"name": "Omenkiller & Miranda, the Blighted Bloom",
+"region": "Perfumer's Grotto",
+"type": "field"
+},
+{
+"flag": 9242,
+"name": "Black Knife Assassin",
+"region": "Sage's Cave",
+"type": "field"
+},
+{
+"flag": 9243,
+"name": "Frenzied Duelist",
+"region": "Gaol Cave",
+"type": "field"
+},
+{
+"flag": 9244,
+"name": "Beastmen of Farum Azula",
+"region": "Dragonbarrow Cave",
+"type": "field"
+},
+{
+"flag": 9245,
+"name": "Cleanrot Knight Duo",
+"region": "Abandoned Cave",
+"type": "field"
+},
+{
+"flag": 9246,
+"name": "Putrid Crystalian Trio",
+"region": "Sellia Hideaway",
+"type": "field"
+},
+{
+"flag": 9247,
+"name": "Misbegotten Crusader",
+"region": "Cave of the Forlorn",
+"type": "field"
+},
+{
+"flag": 9248,
+"name": "Godskin Apostle & Noble",
+"region": "Spiritcaller's Cave",
+"type": "field"
+},
+{
+"flag": 9249,
+"name": "Necromancer Garris",
+"region": "Sage's Cave",
+"type": "field"
+},
+{
+"flag": 9260,
+"name": "Scaly Misbegotten",
+"region": "Morne Tunnel",
+"type": "field"
+},
+{
+"flag": 9261,
+"name": "Stonedigger Troll",
+"region": "Limgrave Tunnels",
+"type": "field"
+},
+{
+"flag": 9262,
+"name": "Crystalian",
+"region": "Raya Lucaria Crystal Tunnel",
+"type": "field"
+},
+{
+"flag": 9263,
+"name": "Stonedigger Troll",
+"region": "Old Altus Tunnel",
+"type": "field"
+},
+{
+"flag": 9264,
+"name": "Onyx Lord",
+"region": "Sealed Tunnel",
+"type": "field"
+},
+{
+"flag": 9265,
+"name": "Crystalian Duo",
+"region": "Altus Tunnel",
+"type": "field"
+},
+{
+"flag": 9266,
+"name": "Magma Wyrm",
+"region": "Gael Tunnel",
+"type": "field"
+},
+{
+"flag": 9267,
+"name": "Fallingstar Beast",
+"region": "Sellia Crystal Tunnel",
+"type": "field"
+},
+{
+"flag": 9268,
+"name": "Astel, Stars of Darkness",
+"region": "Yelough Anix Tunnel",
+"type": "field"
+},
+{
+"flag": 9140,
+"name": "Divine Beast Dancing Lion",
+"region": "Belurat, Tower Settlement",
+"type": "main"
+},
+{
+"flag": 9143,
+"name": "Promised Consort Radahn",
+"region": "Enir-Ilim",
+"type": "main"
+},
+{
+"flag": 9144,
+"name": "Golden Hippopotamus",
+"region": "Shadow Keep",
+"type": "main"
+},
+{
+"flag": 9146,
+"name": "Messmer the Impaler",
+"region": "Shadow Keep",
+"type": "main"
+},
+{
+"flag": 9148,
+"name": "Putrescent Knight",
+"region": "Stone Coffin Fissure",
+"type": "main"
+},
+{
+"flag": 9155,
+"name": "Metyr, Mother of Fingers",
+"region": "Cathedral of Manus Metyr",
+"type": "main"
+},
+{
+"flag": 9156,
+"name": "Midra, Lord of Frenzied Flame",
+"region": "Midra's Manse",
+"type": "main"
+},
+{
+"flag": 9160,
+"name": "Romina, Saint of the Bud",
+"region": "Church of the Bud",
+"type": "main"
+},
+{
+"flag": 9161,
+"name": "Jori, Elder Inquisitor",
+"region": "Abyssal Woods",
+"type": "main"
+},
+{
+"flag": 9162,
+"name": "Scadutree Avatar",
+"region": "Scadutree Base",
+"type": "main"
+},
+{
+"flag": 9163,
+"name": "Bayle the Dread",
+"region": "Jagged Peak",
+"type": "main"
+},
+{
+"flag": 9164,
+"name": "Commander Gaius",
+"region": "Scaduview",
+"type": "main"
+},
+{
+"flag": 9190,
+"name": "Rellana, Twin Moon Knight",
+"region": "Castle Ensis",
+"type": "main"
+},
+{
+"flag": 9270,
+"name": "Death Knight",
+"region": "Fogrift Catacombs",
+"type": "field"
+},
+{
+"flag": 9271,
+"name": "Death Knight",
+"region": "Scorpion River Catacombs",
+"type": "field"
+},
+{
+"flag": 9275,
+"name": "Demi-Human Swordmaster Onze",
+"region": "Belurat Gaol",
+"type": "field"
+},
+{
+"flag": 9276,
+"name": "Curseblade Labirith",
+"region": "Bonny Gaol",
+"type": "field"
+},
+{
+"flag": 9277,
+"name": "Lamenter",
+"region": "Lamenter's Gaol",
+"type": "field"
+},
+{
+"flag": 9280,
+"name": "Chief Bloodfiend",
+"region": "Rivermouth Cave",
+"type": "field"
+},
+{
+"flag": 9281,
+"name": "Ancient Dragon-Man",
+"region": "Dragon's Pit",
+"type": "field"
+}
+]

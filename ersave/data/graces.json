@@ -1,0 +1,2516 @@
+[
+{
+"flag": 71000,
+"name": "Godrick the Grafted (Stormveil Castle)",
+"boss_arena": true,
+"door_flag": 0
+},
+{
+"flag": 71001,
+"name": "Margit, the Fell Omen (Stormveil Castle)",
+"boss_arena": true,
+"door_flag": 0
+},
+{
+"flag": 71002,
+"name": "Castleward Tunnel (Stormveil Castle)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 71003,
+"name": "Gateside Chamber (Stormveil Castle)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 71004,
+"name": "Stormveil Cliffside (Stormveil Castle)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 71005,
+"name": "Rampart Tower (Stormveil Castle)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 71006,
+"name": "Liftside Chamber (Stormveil Castle)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 71007,
+"name": "Secluded Cell (Stormveil Castle)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 71008,
+"name": "Stormveil Main Gate (Stormveil Castle)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 71100,
+"name": "Elden Throne (Leyndell Royal Capital)",
+"boss_arena": true,
+"door_flag": 0
+},
+{
+"flag": 71101,
+"name": "Erdtree Sanctuary (Leyndell Royal Capital)",
+"boss_arena": true,
+"door_flag": 0
+},
+{
+"flag": 71102,
+"name": "East Capital Rampart (Leyndell Royal Capital)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 71103,
+"name": "Lower Capital Church (Leyndell Royal Capital)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 71104,
+"name": "Avenue Balcony (Leyndell Royal Capital)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 71105,
+"name": "West Capital Rampart (Leyndell Royal Capital)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 71107,
+"name": "Queen's Bedchamber (Leyndell Royal Capital)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 71108,
+"name": "Fortified Manor, First Floor (Leyndell Royal Capital)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 71109,
+"name": "Divine Bridge (Leyndell Royal Capital)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 71120,
+"name": "Elden Throne (Leyndell Ashen Capital)",
+"boss_arena": true,
+"door_flag": 0
+},
+{
+"flag": 71121,
+"name": "Erdtree Sanctuary (Leyndell Ashen Capital)",
+"boss_arena": true,
+"door_flag": 0
+},
+{
+"flag": 71122,
+"name": "East Capital Rampart (Leyndell Ashen Capital)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 71123,
+"name": "Leyndell, Capital of Ash (Leyndell Ashen Capital)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 71124,
+"name": "Queen's Bedchamber (Leyndell Ashen Capital)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 71125,
+"name": "Divine Bridge (Leyndell Ashen Capital)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 71190,
+"name": "Table of Lost Grace / Roundtable Hold (Roundtable Hold)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 71210,
+"name": "Dragonkin Soldier of Nokstella (Ainsel River)",
+"boss_arena": true,
+"door_flag": 0
+},
+{
+"flag": 71211,
+"name": "Ainsel River Well Depths (Ainsel River)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 71212,
+"name": "Ainsel River Sluice Gate (Ainsel River)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 71213,
+"name": "Ainsel River Downstream (Ainsel River)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 71214,
+"name": "Ainsel River Main (Ainsel River)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 71215,
+"name": "Nokstella, Eternal City (Ainsel River)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 71219,
+"name": "Nokstella Waterfall Basin (Ainsel River)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 71220,
+"name": "Great Waterfall Basin (Ainsel River)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 71216,
+"name": "Lake of Rot Shoreside (Lake of Rot)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 71218,
+"name": "Grand Cloister (Lake of Rot)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 71221,
+"name": "Mimic Tear (Siofra River)",
+"boss_arena": true,
+"door_flag": 0
+},
+{
+"flag": 71222,
+"name": "Siofra River Bank (Siofra River)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 71223,
+"name": "Worshippers' Woods (Siofra River)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 71224,
+"name": "Ancestral Woods (Siofra River)",
+"boss_arena": true,
+"door_flag": 0
+},
+{
+"flag": 71225,
+"name": "Aqueduct-Facing Cliffs (Siofra River)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 71226,
+"name": "Night's Sacred Ground (Siofra River)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 71227,
+"name": "Below the Well (Siofra River)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 71270,
+"name": "Siofra River Well Depths (Siofra River)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 71271,
+"name": "Nokron, Eternal City (Siofra River)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 71230,
+"name": "Prince of Death's Throne (Deeproot Depths)",
+"boss_arena": true,
+"door_flag": 0
+},
+{
+"flag": 71231,
+"name": "Root-Facing Cliffs (Deeproot Depths)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 71232,
+"name": "Great Waterfall Crest (Deeproot Depths)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 71233,
+"name": "Deeproot Depths (Deeproot Depths)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 71234,
+"name": "The Nameless Eternal City (Deeproot Depths)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 71235,
+"name": "Across the Roots (Deeproot Depths)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 71240,
+"name": "Astel, Naturalborn of the Void (Deeproot Depths)",
+"boss_arena": true,
+"door_flag": 0
+},
+{
+"flag": 71250,
+"name": "Cocoon of the Empyrean (Mohgwyn Palace)",
+"boss_arena": true,
+"door_flag": 0
+},
+{
+"flag": 71251,
+"name": "Palace Approach Ledge-Road (Mohgwyn Palace)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 71252,
+"name": "Dynasty Mausoleum Entrance (Mohgwyn Palace)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 71253,
+"name": "Dynasty Mausoleum Midpoint (Mohgwyn Palace)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 71300,
+"name": "Maliketh, the Black Blade (Crumbling Farum Azula)",
+"boss_arena": true,
+"door_flag": 0
+},
+{
+"flag": 71301,
+"name": "Dragonlord Placidusax (Crumbling Farum Azula)",
+"boss_arena": true,
+"door_flag": 0
+},
+{
+"flag": 71302,
+"name": "Dragon Temple Altar (Crumbling Farum Azula)",
+"boss_arena": true,
+"door_flag": 0
+},
+{
+"flag": 71303,
+"name": "Crumbling Beast Grave (Crumbling Farum Azula)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 71304,
+"name": "Crumbling Beast Grave Depths (Crumbling Farum Azula)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 71305,
+"name": "Tempest-Facing Balcony (Crumbling Farum Azula)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 71306,
+"name": "Dragon Temple (Crumbling Farum Azula)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 71307,
+"name": "Dragon Temple Transept (Crumbling Farum Azula)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 71308,
+"name": "Dragon Temple Lift (Crumbling Farum Azula)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 71309,
+"name": "Dragon Temple Rooftop (Crumbling Farum Azula)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 71310,
+"name": "Beside the Great Bridge (Crumbling Farum Azula)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 71400,
+"name": "Raya Lucaria Grand Library (Liurnia North)",
+"boss_arena": true,
+"door_flag": 0
+},
+{
+"flag": 71401,
+"name": "Debate Parlour (Liurnia North)",
+"boss_arena": true,
+"door_flag": 0
+},
+{
+"flag": 71402,
+"name": "Church of the Cuckoo (Liurnia North)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 71403,
+"name": "Schoolhouse Classroom (Liurnia North)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 71500,
+"name": "Malenia, Goddess of Rot (Miquella's Haligtree)",
+"boss_arena": true,
+"door_flag": 0
+},
+{
+"flag": 71501,
+"name": "Prayer Room (Miquella's Haligtree)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 71502,
+"name": "Elphael Inner Wall (Miquella's Haligtree)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 71503,
+"name": "Drainage Channel (Miquella's Haligtree)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 71504,
+"name": "Haligtree Roots (Miquella's Haligtree)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 71505,
+"name": "Haligtree Promenade (Miquella's Haligtree)",
+"boss_arena": true,
+"door_flag": 0
+},
+{
+"flag": 71506,
+"name": "Haligtree Canopy (Miquella's Haligtree)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 71507,
+"name": "Haligtree Town (Miquella's Haligtree)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 71508,
+"name": "Haligtree Town Plaza (Miquella's Haligtree)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 71600,
+"name": "Rykard, Lord of Blasphemy (Mt. Gelmir)",
+"boss_arena": true,
+"door_flag": 0
+},
+{
+"flag": 71601,
+"name": "Temple of Eiglay (Mt. Gelmir)",
+"boss_arena": true,
+"door_flag": 0
+},
+{
+"flag": 71602,
+"name": "Volcano Manor (Mt. Gelmir)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 71603,
+"name": "Prison Town Church (Mt. Gelmir)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 71604,
+"name": "Guest Hall (Mt. Gelmir)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 71605,
+"name": "Audience Pathway (Mt. Gelmir)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 71606,
+"name": "Abductor Virgin (Mt. Gelmir)",
+"boss_arena": true,
+"door_flag": 0
+},
+{
+"flag": 71607,
+"name": "Subterranean Inquisition Chamber (Mt. Gelmir)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 71800,
+"name": "Cave of Knowledge (Limgrave West)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 71801,
+"name": "Stranded Graveyard (Limgrave West)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 71900,
+"name": "Fractured Marika (Leyndell Ashen Capital)",
+"boss_arena": true,
+"door_flag": 0
+},
+{
+"flag": 72000,
+"name": "Theatre of the Divine Beast (Belurat, Tower Settlement)",
+"boss_arena": true,
+"door_flag": 0
+},
+{
+"flag": 72001,
+"name": "Belurat, Tower Settlement (Belurat, Tower Settlement)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 72002,
+"name": "Small Private Altar (Belurat, Tower Settlement)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 72003,
+"name": "Stagefront (Belurat, Tower Settlement)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 72010,
+"name": "Gate of Divinity (Enir-Ilim)",
+"boss_arena": true,
+"door_flag": 0
+},
+{
+"flag": 72012,
+"name": "Enir-Ilim: Outer Wall (Enir-Ilim)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 72013,
+"name": "First Rise (Enir-Ilim)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 72014,
+"name": "Spiral Rise (Enir-Ilim)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 72015,
+"name": "Cleansing Chamber Anteroom (Enir-Ilim)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 72016,
+"name": "Divine Gate Front Staircase (Enir-Ilim)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 72101,
+"name": "Main Gate Plaza (Shadow Keep)",
+"boss_arena": true,
+"door_flag": 0
+},
+{
+"flag": 72102,
+"name": "Shadow Keep Main Gate (Shadow Keep)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 72106,
+"name": "Church District Entrance (Shadow Keep, Church District)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 72107,
+"name": "Sunken Chapel (Shadow Keep, Church District)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 72108,
+"name": "Tree-Worship Passage (Shadow Keep, Church District)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 72109,
+"name": "Tree-Worship Sanctum (Shadow Keep, Church District)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 72110,
+"name": "Messmer's Dark Chamber (Shadow Keep)",
+"boss_arena": true,
+"door_flag": 0
+},
+{
+"flag": 72111,
+"name": "Storehouse, First Floor (Specimen Storehouse)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 72112,
+"name": "Storehouse, Fourth Floor (Specimen Storehouse)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 72113,
+"name": "Storehouse, Seventh Floor (Specimen Storehouse)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 72114,
+"name": "Dark Chamber Entrance (Specimen Storehouse)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 72116,
+"name": "Storehouse, Back Section (Specimen Storehouse)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 72117,
+"name": "Storehouse, Loft (Specimen Storehouse)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 72120,
+"name": "West Rampart (Shadow Keep)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 72200,
+"name": "Garden of Deep Purple (Stone Coffin Fissure)",
+"boss_arena": true,
+"door_flag": 0
+},
+{
+"flag": 72201,
+"name": "Stone Coffin Fissure (Stone Coffin Fissure)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 72202,
+"name": "Fissure Cross (Stone Coffin Fissure)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 72203,
+"name": "Fissure Waypoint (Stone Coffin Fissure)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 72204,
+"name": "Fissure Depths (Stone Coffin Fissure)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 72500,
+"name": "Finger Birthing Grounds (Cathedral of Manus Metyr)",
+"boss_arena": true,
+"door_flag": 0
+},
+{
+"flag": 72800,
+"name": "Discussion Chamber (Midra's Manse)",
+"boss_arena": true,
+"door_flag": 0
+},
+{
+"flag": 72801,
+"name": "Manse Hall (Midra's Manse)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 72802,
+"name": "Midra's Library (Midra's Manse)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 72803,
+"name": "Second Floor Chamber (Midra's Manse)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 73000,
+"name": "Tombsward Catacombs (Weeping Peninsula)",
+"boss_arena": false,
+"door_flag": 1043338600
+},
+{
+"flag": 73001,
+"name": "Impaler's Catacombs (Weeping Peninsula)",
+"boss_arena": false,
+"door_flag": 1045348540
+},
+{
+"flag": 73002,
+"name": "Stormfoot Catacombs (Limgrave West)",
+"boss_arena": false,
+"door_flag": 1041378540
+},
+{
+"flag": 73003,
+"name": "Road's End Catacombs (Liurnia West)",
+"boss_arena": false,
+"door_flag": 1033438600
+},
+{
+"flag": 73004,
+"name": "Murkwater Catacombs (Limgrave West)",
+"boss_arena": false,
+"door_flag": 1043388540
+},
+{
+"flag": 73005,
+"name": "Black Knife Catacombs (Liurnia East)",
+"boss_arena": false,
+"door_flag": 1039488540
+},
+{
+"flag": 73006,
+"name": "Cliffbottom Catacombs (Liurnia East)",
+"boss_arena": false,
+"door_flag": 1039418540
+},
+{
+"flag": 73007,
+"name": "Wyndham Catacombs (Altus Plateau)",
+"boss_arena": false,
+"door_flag": 1038528600
+},
+{
+"flag": 73008,
+"name": "Sainted Hero's Grave (Altus Plateau)",
+"boss_arena": false,
+"door_flag": 1040528620
+},
+{
+"flag": 73009,
+"name": "Gelmir Hero's Grave (Mt. Gelmir)",
+"boss_arena": false,
+"door_flag": 1037538620
+},
+{
+"flag": 73010,
+"name": "Auriza Hero's Grave (Altus Plateau)",
+"boss_arena": false,
+"door_flag": 1045518620
+},
+{
+"flag": 73011,
+"name": "Deathtouched Catacombs (Limgrave East)",
+"boss_arena": false,
+"door_flag": 1043398540
+},
+{
+"flag": 73012,
+"name": "Unsightly Catacombs (Mt. Gelmir)",
+"boss_arena": false,
+"door_flag": 1036518600
+},
+{
+"flag": 73013,
+"name": "Auriza Side Tomb (Altus Plateau)",
+"boss_arena": false,
+"door_flag": 1045528600
+},
+{
+"flag": 73014,
+"name": "Minor Erdtree Catacombs (Caelid)",
+"boss_arena": false,
+"door_flag": 1047408540
+},
+{
+"flag": 73015,
+"name": "Caelid Catacombs (Caelid)",
+"boss_arena": false,
+"door_flag": 1048368600
+},
+{
+"flag": 73016,
+"name": "War-Dead Catacombs (Caelid)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 73017,
+"name": "Giant-Conquering Hero's Grave (Mountaintops of the Giants East)",
+"boss_arena": false,
+"door_flag": 1050538620
+},
+{
+"flag": 73018,
+"name": "Giant's Mountaintop Catacombs (Mountaintops of the Giants East)",
+"boss_arena": false,
+"door_flag": 1050538600
+},
+{
+"flag": 73019,
+"name": "Consecrated Snowfield Catacombs (Consecrated Snowfield)",
+"boss_arena": false,
+"door_flag": 1050558540
+},
+{
+"flag": 73020,
+"name": "Hidden Path to the Haligtree (Consecrated Snowfield)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 73100,
+"name": "Murkwater Cave (Limgrave West)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 73101,
+"name": "Earthbore Cave (Weeping Peninsula)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 73102,
+"name": "Tombsward Cave (Weeping Peninsula)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 73103,
+"name": "Groveside Cave (Limgrave West)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 73104,
+"name": "Stillwater Cave (Liurnia East)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 73105,
+"name": "Lakeside Crystal Cave (Liurnia East)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 73106,
+"name": "Academy Crystal Cave (Liurnia North)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 73107,
+"name": "Seethewater Cave (Mt. Gelmir)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 73109,
+"name": "Volcano Cave (Mt. Gelmir)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 73110,
+"name": "Dragonbarrow Cave (Dragonbarrow)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 73111,
+"name": "Sellia Hideaway (Caelid)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 73112,
+"name": "Cave of the Forlorn (Consecrated Snowfield)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 73115,
+"name": "Coastal Cave (Limgrave West)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 73117,
+"name": "Highroad Cave (Limgrave West)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 73118,
+"name": "Perfumer's Grotto (Altus Plateau)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 73119,
+"name": "Sage's Cave (Altus Plateau)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 73120,
+"name": "Abandoned Cave (Caelid)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 73121,
+"name": "Gaol Cave (Caelid)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 73122,
+"name": "Spiritcaller's Cave (Mountaintops of the Giants West)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 73200,
+"name": "Morne Tunnel (Weeping Peninsula)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 73201,
+"name": "Limgrave Tunnels (Limgrave West)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 73202,
+"name": "Raya Lucaria Crystal Tunnel (Liurnia North)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 73204,
+"name": "Old Altus Tunnel (Altus Plateau)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 73205,
+"name": "Altus Tunnel (Altus Plateau)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 73207,
+"name": "Gael Tunnel (Caelid)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 73208,
+"name": "Sellia Crystal Tunnel (Caelid)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 73211,
+"name": "Yelough Anix Tunnel (Consecrated Snowfield)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 73257,
+"name": "Rear Gael Tunnel Entrance (Caelid)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 73410,
+"name": "Limgrave Tower Bridge (Limgrave West)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 73412,
+"name": "Divine Tower of Limgrave (Limgrave West)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 73420,
+"name": "Study Hall Entrance (Liurnia East)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 73421,
+"name": "Liurnia Tower Bridge (Liurnia East)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 73422,
+"name": "Divine Tower of Liurnia (Liurnia East)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 73430,
+"name": "Divine Tower of West Altus (Altus Plateau)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 73431,
+"name": "Sealed Tunnel (Altus Plateau)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 73432,
+"name": "Divine Tower of West Altus: Gate (Altus Plateau)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 73440,
+"name": "Divine Tower of Caelid: Basement (Caelid)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 73441,
+"name": "Divine Tower of Caelid: Center (Caelid)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 73450,
+"name": "Divine Tower of the East Altus: Gate (Altus Plateau)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 73451,
+"name": "Divine Tower of the East Altus (Altus Plateau)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 73460,
+"name": "Isolated Divine Tower (Altus Plateau)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 73500,
+"name": "Cathedral of the Forsaken (Leyndell Royal Capital)",
+"boss_arena": true,
+"door_flag": 0
+},
+{
+"flag": 73501,
+"name": "Underground Roadside (Leyndell Royal Capital)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 73502,
+"name": "Forsaken Depths (Leyndell Royal Capital)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 73503,
+"name": "Leyndell Catacombs (Leyndell Royal Capital)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 73504,
+"name": "Frenzied Flame Proscription (Leyndell Royal Capital)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 73900,
+"name": "Magma Wyrm (Liurnia North)",
+"boss_arena": true,
+"door_flag": 0
+},
+{
+"flag": 73901,
+"name": "Ruin-Strewn Precipice (Liurnia North)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 73902,
+"name": "Ruin-Strewn Precipice Overlook (Altus Plateau)",
+"boss_arena": true,
+"door_flag": 0
+},
+{
+"flag": 74000,
+"name": "Fog Rift Catacombs (Gravesite Plain)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 74001,
+"name": "Scorpion River Catacombs (Scadu Altus)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 74002,
+"name": "Darklight Catacombs (Abyssal Woods)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 74100,
+"name": "Belurat Gaol (Gravesite Plain)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 74101,
+"name": "Bonny Gaol (Scadu Altus)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 74102,
+"name": "Lamenter's Gaol (Charo's Hidden Grave)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 74200,
+"name": "Ruined Forge Lava Intake (Gravesite Plain)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 74202,
+"name": "Ruined Forge of Starfall Past (Scadu Altus)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 74203,
+"name": "Taylew's Ruined Forge (Rauh Base)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 74300,
+"name": "Rivermouth Cave (Gravesite Plain)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 74301,
+"name": "Dragon's Pit (Gravesite Plain)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 74351,
+"name": "Dragon's Pit Terminus (Jagged Peak)",
+"boss_arena": true,
+"door_flag": 0
+},
+{
+"flag": 76100,
+"name": "Church of Elleh (Limgrave West)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76101,
+"name": "The First Step (Limgrave West)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76102,
+"name": "Stormhill Shack (Limgrave West)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76103,
+"name": "Artist's Shack (Limgrave West)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76108,
+"name": "Agheel Lake North (Limgrave West)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76110,
+"name": "Church of Dragon Communion (Limgrave West)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76111,
+"name": "Gatefront (Limgrave West)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76113,
+"name": "Seaside Ruins (Limgrave West)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76116,
+"name": "Murkwater Coast (Limgrave West)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76117,
+"name": "Saintsbridge (Limgrave West)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76118,
+"name": "Warmaster's Shack (Limgrave West)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76120,
+"name": "Waypoint Ruins Cellar (Limgrave West)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76156,
+"name": "Isolated Merchant's Shack (Limgrave West)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76104,
+"name": "Third Church of Marika (Limgrave East)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76105,
+"name": "Fort Haight West (Limgrave East)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76106,
+"name": "Agheel Lake South (Limgrave East)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76114,
+"name": "Mistwood Outskirts (Limgrave East)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76119,
+"name": "Summonwater Village Outskirts (Limgrave East)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76150,
+"name": "Church of Pilgrimage (Weeping Peninsula)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76151,
+"name": "Castle Morne Rampart (Weeping Peninsula)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76152,
+"name": "Tombsward (Weeping Peninsula)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76153,
+"name": "South of the Lookout Tower (Weeping Peninsula)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76154,
+"name": "Ailing Village Outskirts (Weeping Peninsula)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76155,
+"name": "Beside the Crater-Pocked Glade (Weeping Peninsula)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76157,
+"name": "Bridge of Sacrifice (Weeping Peninsula)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76158,
+"name": "Castle Morne Lift (Weeping Peninsula)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76159,
+"name": "Behind The Castle (Weeping Peninsula)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76160,
+"name": "Beside the Rampart Gaol (Weeping Peninsula)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76161,
+"name": "Morne Moangrave (Weeping Peninsula)",
+"boss_arena": true,
+"door_flag": 0
+},
+{
+"flag": 76162,
+"name": "Fourth Church of Marika (Weeping Peninsula)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76200,
+"name": "Lake-Facing Cliffs (Liurnia North)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76201,
+"name": "Liurnia Lake Shore (Liurnia North)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76202,
+"name": "Laskyar Ruins (Liurnia North)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76203,
+"name": "Scenic Isle (Liurnia North)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76204,
+"name": "Academy Gate Town (Liurnia North)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76205,
+"name": "South Raya Lucaria Gate (Liurnia North)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76206,
+"name": "Main Academy Gate (Liurnia North)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76208,
+"name": "Bellum Church (Liurnia North)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76209,
+"name": "Grand Lift of Dectus (Liurnia North)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76211,
+"name": "Sorcerer's Isle (Liurnia North)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76212,
+"name": "Northern Liurnia Lake Shore (Liurnia North)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76216,
+"name": "Boilprawn Shack (Liurnia North)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76217,
+"name": "Artist's Shack (Liurnia North)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76219,
+"name": "Folly on the Lake (Liurnia North)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76220,
+"name": "Village of the Albinaurics (Liurnia North)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76221,
+"name": "Liurnia Highway North (Liurnia North)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76222,
+"name": "Gate Town Bridge (Liurnia North)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76225,
+"name": "Ruined Labyrinth (Liurnia North)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76226,
+"name": "Mausoleum Compound (Liurnia North)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76233,
+"name": "Gate Town North (Liurnia North)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76236,
+"name": "Fallen Ruins of the Lake (Liurnia North)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76239,
+"name": "Frenzied Flame Village Outskirts (Liurnia North)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76240,
+"name": "Church of Inhibition (Liurnia North)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76242,
+"name": "East Gate Bridge Trestle (Liurnia North)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76244,
+"name": "Liurnia Highway South (Liurnia North)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76207,
+"name": "East Raya Lucaria Gate (Liurnia East)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76223,
+"name": "Eastern Liurnia Lake Shore (Liurnia East)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76224,
+"name": "Church of Vows (Liurnia East)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76229,
+"name": "Ravine-Veiled Village (Liurnia East)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76234,
+"name": "Eastern Tableland (Liurnia East)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76235,
+"name": "The Ravine (Liurnia East)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76243,
+"name": "Crystalline Woods (Liurnia East)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76245,
+"name": "Jarburg (Liurnia East)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76210,
+"name": "Foot of the Four Belfries (Liurnia West)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76213,
+"name": "Road to the Manor (Liurnia West)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76214,
+"name": "Main Caria Manor Gate (Liurnia West)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76215,
+"name": "Slumbering Wolf's Shack (Liurnia West)",
+"boss_arena": true,
+"door_flag": 0
+},
+{
+"flag": 76218,
+"name": "Revenger's Shack (Liurnia West)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76227,
+"name": "The Four Belfries (Liurnia West)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76228,
+"name": "Ranni's Rise (Liurnia West)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76230,
+"name": "Manor Upper Level (Liurnia West)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76231,
+"name": "Manor Lower Level (Liurnia West)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76232,
+"name": "Royal Moongazing Grounds (Liurnia West)",
+"boss_arena": true,
+"door_flag": 0
+},
+{
+"flag": 76237,
+"name": "Converted Tower (Liurnia West)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76238,
+"name": "Behind Caria Manor (Liurnia West)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76241,
+"name": "Temple Quarter (Liurnia West)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76247,
+"name": "Ranni's Chamber (Liurnia West)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76250,
+"name": "Moonlight Altar (Liurnia West)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76251,
+"name": "Cathedral of Manus Celes (Liurnia West)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76252,
+"name": "Altar South (Liurnia West)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76300,
+"name": "Abandoned Coffin (Altus Plateau)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76301,
+"name": "Altus Plateau (Altus Plateau)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76302,
+"name": "Erdtree-Gazing Hill (Altus Plateau)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76303,
+"name": "Altus Highway Junction (Altus Plateau)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76304,
+"name": "Forest-Spanning Greatbridge (Altus Plateau)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76305,
+"name": "Rampartside Path (Altus Plateau)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76306,
+"name": "Bower of Bounty (Altus Plateau)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76307,
+"name": "Road of Iniquity Side Path (Altus Plateau)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76308,
+"name": "Windmill Village (Altus Plateau)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76309,
+"name": "Outer Wall Phantom Tree (Altus Plateau)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76310,
+"name": "Minor Erdtree Church (Altus Plateau)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76311,
+"name": "Hermit Merchant's Shack (Altus Plateau)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76312,
+"name": "Outer Wall Battleground (Altus Plateau)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76313,
+"name": "Windmill Heights (Altus Plateau)",
+"boss_arena": true,
+"door_flag": 0
+},
+{
+"flag": 76314,
+"name": "Capital Rampart (Altus Plateau)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76320,
+"name": "Shaded Castle Ramparts (Altus Plateau)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76321,
+"name": "Shaded Castle Inner Gate (Altus Plateau)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76322,
+"name": "Castellan's Hall (Altus Plateau)",
+"boss_arena": true,
+"door_flag": 0
+},
+{
+"flag": 76350,
+"name": "Bridge of Iniquity (Mt. Gelmir)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76351,
+"name": "First Mt. Gelmir Campsite (Mt. Gelmir)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76352,
+"name": "Ninth Mt. Gelmir Campsite (Mt. Gelmir)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76353,
+"name": "Road of Iniquity (Mt. Gelmir)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76354,
+"name": "Seethewater River (Mt. Gelmir)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76355,
+"name": "Seethewater Terminus (Mt. Gelmir)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76356,
+"name": "Craftsman's Shack (Mt. Gelmir)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76357,
+"name": "Primeval Sorcerer Azur (Mt. Gelmir)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76400,
+"name": "Smoldering Church (Caelid)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76401,
+"name": "Rotview Balcony (Caelid)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76402,
+"name": "Fort Gael North (Caelid)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76403,
+"name": "Caelem Ruins (Caelid)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76404,
+"name": "Cathedral of Dragon Communion (Caelid)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76405,
+"name": "Caelid Highway South (Caelid)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76406,
+"name": "Aeonia Swamp Shore (Caelid)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76407,
+"name": "Astray from Caelid Highway North (Caelid)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76409,
+"name": "Smoldering Wall (Caelid)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76410,
+"name": "Deep Siofra Well (Caelid)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76411,
+"name": "Southern Aeonia Swamp Bank (Caelid)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76412,
+"name": "Heart of Aeonia (Caelid)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76413,
+"name": "Inner Aeonia (Caelid)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76414,
+"name": "Sellia Backstreets (Caelid)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76415,
+"name": "Chair-Crypt of Sellia (Caelid)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76416,
+"name": "Sellia Under-Stair (Caelid)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76417,
+"name": "Impassable Greatbridge (Caelid)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76418,
+"name": "Church of the Plague (Caelid)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76419,
+"name": "Redmane Castle Plaza (Caelid)",
+"boss_arena": true,
+"door_flag": 0
+},
+{
+"flag": 76420,
+"name": "Chamber Outside the Plaza (Caelid)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76422,
+"name": "Starscourge Radahn (Caelid)",
+"boss_arena": true,
+"door_flag": 0
+},
+{
+"flag": 76450,
+"name": "Dragonbarrow West (Dragonbarrow)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76451,
+"name": "Isolated Merchant's Shack (Dragonbarrow)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76452,
+"name": "Dragonbarrow Fork (Dragonbarrow)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76453,
+"name": "Fort Faroth (Dragonbarrow)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76454,
+"name": "Bestial Sanctum (Dragonbarrow)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76455,
+"name": "Lenne's Rise (Dragonbarrow)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76456,
+"name": "Farum Greatbridge (Dragonbarrow)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76500,
+"name": "Forbidden Lands (Forbidden Lands)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76502,
+"name": "Grand Lift of Rold (Forbidden Lands)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76503,
+"name": "Ancient Snow Valley Ruins (Mountaintops of the Giants West)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76504,
+"name": "Freezing Lake (Mountaintops of the Giants West)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76505,
+"name": "First Church of Marika (Mountaintops of the Giants West)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76520,
+"name": "Whiteridge Road (Mountaintops of the Giants West)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76521,
+"name": "Snow Valley Ruins Overlook (Mountaintops of the Giants West)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76522,
+"name": "Castle Sol Main Gate (Mountaintops of the Giants West)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76523,
+"name": "Church of the Eclipse (Mountaintops of the Giants West)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76524,
+"name": "Castle Sol Rooftop (Mountaintops of the Giants West)",
+"boss_arena": true,
+"door_flag": 0
+},
+{
+"flag": 76501,
+"name": "Zamor Ruins (Mountaintops of the Giants East)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76506,
+"name": "Giant's Gravepost (Mountaintops of the Giants East)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76507,
+"name": "Church of Repose (Mountaintops of the Giants East)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76508,
+"name": "Foot of the Forge (Mountaintops of the Giants East)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76509,
+"name": "Fire Giant (Mountaintops of the Giants East)",
+"boss_arena": true,
+"door_flag": 0
+},
+{
+"flag": 76510,
+"name": "Forge of the Giants (Mountaintops of the Giants East)",
+"boss_arena": true,
+"door_flag": 0
+},
+{
+"flag": 76550,
+"name": "Consecrated Snowfield (Consecrated Snowfield)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76551,
+"name": "Inner Consecrated Snowfield (Consecrated Snowfield)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76652,
+"name": "Ordina, Liturgical Town (Consecrated Snowfield)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76653,
+"name": "Apostate Derelict (Consecrated Snowfield)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76800,
+"name": "Gravesite Plain (Gravesite Plain)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76801,
+"name": "Scorched Ruins (Gravesite Plain)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76802,
+"name": "Three-Path Cross (Gravesite Plain)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76803,
+"name": "Main Gate Cross (Gravesite Plain)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76804,
+"name": "Cliffroad Terminus (Gravesite Plain)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76805,
+"name": "Greatbridge, North (Gravesite Plain)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76810,
+"name": "Pillar Path Cross (Gravesite Plain)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76811,
+"name": "Pillar Path Waypoint (Gravesite Plain)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76812,
+"name": "Ellac River Cave (Gravesite Plain)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76813,
+"name": "Castle Front (Gravesite Plain)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76830,
+"name": "Ellac River Downstream (Gravesite Plain)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76821,
+"name": "Castle Ensis Checkpoint (Castle Ensis)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76822,
+"name": "Castle-Lord's Chamber (Castle Ensis)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76823,
+"name": "Ensis Moongazing Grounds (Castle Ensis)",
+"boss_arena": true,
+"door_flag": 0
+},
+{
+"flag": 76831,
+"name": "Cerulean Coast (Cerulean Coast)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76832,
+"name": "Cerulean Coast West (Cerulean Coast)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76833,
+"name": "The Fissure (Cerulean Coast)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76834,
+"name": "Finger Ruins of Rhia (Cerulean Coast)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76835,
+"name": "Cerulean Coast Cross (Cerulean Coast)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76841,
+"name": "Charo's Hidden Grave (Charo's Hidden Grave)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76840,
+"name": "Grand Altar of Dragon Communion (Jagged Peak)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76850,
+"name": "Foot of the Jagged Peak (Jagged Peak)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76851,
+"name": "Jagged Peak Mountainside (Jagged Peak)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76852,
+"name": "Jagged Peak Summit (Jagged Peak)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76853,
+"name": "Rest of the Dread Dragon (Jagged Peak)",
+"boss_arena": true,
+"door_flag": 0
+},
+{
+"flag": 76860,
+"name": "Abyssal Woods (Abyssal Woods)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76861,
+"name": "Divided Falls (Abyssal Woods)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76862,
+"name": "Forsaken Graveyard (Abyssal Woods)",
+"boss_arena": true,
+"door_flag": 0
+},
+{
+"flag": 76863,
+"name": "Woodland Trail (Abyssal Woods)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76864,
+"name": "Church Ruins (Abyssal Woods)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76900,
+"name": "Highroad Cross (Scadu Altus)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76902,
+"name": "Moorth Ruins (Scadu Altus)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76903,
+"name": "Bonny Village (Scadu Altus)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76904,
+"name": "Bridge Leading to the Village (Scadu Altus)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76905,
+"name": "Church District Highroad (Scadu Altus)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76906,
+"name": "Cathedral of Manus Metyr (Scadu Altus)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76907,
+"name": "Scadu Altus, West (Scadu Altus)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76908,
+"name": "Moorth Highway, South (Scadu Altus)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76909,
+"name": "Fort of Reprimand (Scadu Altus)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76910,
+"name": "Behind the Fort of Reprimand (Scadu Altus)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76911,
+"name": "Scaduview Cross (Scadu Altus)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76916,
+"name": "Castle Watering Hole (Scadu Altus)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76917,
+"name": "Recluses' River Upstream (Scadu Altus)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76918,
+"name": "Recluses' River Downstream (Scadu Altus)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76912,
+"name": "Ancient Ruins Base (Rauh Base)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76913,
+"name": "Temple Town Ruins (Rauh Base)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76914,
+"name": "Ravine North (Rauh Base)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76930,
+"name": "Scaduview (Scaduview)",
+"boss_arena": true,
+"door_flag": 0
+},
+{
+"flag": 76931,
+"name": "Shadow Keep, Back Gate (Scaduview)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76935,
+"name": "Hinterland (Scaduview)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76936,
+"name": "Fingerstone Hill (Scaduview)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76937,
+"name": "Hinterland Bridge (Scaduview)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76940,
+"name": "Viaduct Minor Tower (Ancient Ruins of Rauh)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76941,
+"name": "Rauh Ancient Ruins, East (Ancient Ruins of Rauh)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76942,
+"name": "Rauh Ancient Ruins, West (Ancient Ruins of Rauh)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76943,
+"name": "Church of the Bud, Main Entrance (Ancient Ruins of Rauh)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76944,
+"name": "Ancient Ruins, Grand Stairway (Ancient Ruins of Rauh)",
+"boss_arena": false,
+"door_flag": 0
+},
+{
+"flag": 76945,
+"name": "Church of the Bud (Ancient Ruins of Rauh)",
+"boss_arena": true,
+"door_flag": 0
+},
+{
+"flag": 76960,
+"name": "Scadutree Base (Shadow Keep)",
+"boss_arena": true,
+"door_flag": 0
+}
+]
