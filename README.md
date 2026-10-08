@@ -3,6 +3,12 @@
 MCP server (and Python library) to read and edit **Elden Ring PS4 saves** (`memory.dat`)
 on a jailbroken PS5, through the PS5 Save Mounter payload and the console's FTP server.
 
+> **Offline play only.** Edited saves can get your account soft-banned if you take them online.
+> Every write makes a backup first, but keep your own copy too.
+
+**No PS5?** The CLI reads and plans edits on a local decrypted `memory.dat` without a console
+(`uv run ersave list --file memory.dat`, also `show` and `plan`). Writing back needs the console.
+
 - `ersave/save.py` — container and character-slot layout
 - `ersave/edit.py` — edits (runes, items, talisman slots, graces, maps) that never resize a slot ([ADR 0001](adr/0001-reuse-orphan-gaitems-never-resize.md))
 - `ersave/db.py` — items, graces, maps, bosses and event-flag addressing
@@ -27,7 +33,7 @@ claude mcp add -s user elden-ring-save -- /opt/homebrew/bin/uv run --directory ~
 Use the absolute `uv` path: Claude Code doesn't start MCP servers with Homebrew on `PATH`.
 On the console: FTP (2121), PS5 Save Mounter (9090) and the Payload Manager (8084, for the
 game-running check) must be up. Backups go to `~/.local/share/ersave/backups/` (`ERSAVE_BACKUPS`).
-The host defaults to `192.168.1.63` (`ERSAVE_PS5_HOST`).
+Set the console's address with `ERSAVE_PS5_HOST` (e.g. `claude mcp add … -e ERSAVE_PS5_HOST=192.168.1.50 …`).
 
 ## Not supported yet
 
