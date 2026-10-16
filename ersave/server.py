@@ -89,6 +89,8 @@ OPERATIONS_DOC = """
 - {"op": "set_talisman_slots", "total": 4}
 - {"op": "unlock_grace", "grace": "<name>"}         not boss-arena graces
 - {"op": "unlock_map", "region": "<name>"}          reveals it and adds the fragment
+- {"op": "fix_inventory_tail"}   repairs an item added by older versions that doesn't
+   show in-game (it sat in the slot the game keeps empty at the end of the inventory)
 """
 
 

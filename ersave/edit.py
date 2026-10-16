@@ -94,8 +94,18 @@ class Editor:
                 raise EditError("inventory is full")
             pos = inv.common_slot(len(inv.common))
         entry_index = inv.next_acq * 2
-        struct.pack_into("<3I", self.data, pos, handle, qty, entry_index)
-        (inv.key if key else inv.common).append(InvEntry(handle, qty, entry_index))
+        lst = inv.key if key else inv.common
+        if lst and lst[-1].handle in (0, 0xFFFFFFFF):
+            # The game keeps the last counted slot empty and doesn't show whatever is
+            # there (seen 2026-10-16: items appended after it were invisible in-game).
+            # Take that slot and move the empty one up behind the new entry.
+            empty = lst[-1]
+            struct.pack_into("<3I", self.data, pos - 12, handle, qty, entry_index)
+            struct.pack_into("<3I", self.data, pos, empty.handle, empty.quantity, empty.index)
+            lst.insert(len(lst) - 1, InvEntry(handle, qty, entry_index))
+        else:
+            struct.pack_into("<3I", self.data, pos, handle, qty, entry_index)
+            lst.append(InvEntry(handle, qty, entry_index))
         if not key:
             inv.next_equip += 1
         inv.next_acq += 1
@@ -253,6 +263,22 @@ class Editor:
             self._add_acquired(m["fragment"])
         self.log.append(f'map revealed: {m["name"]}')
 
+    def fix_inventory_tail(self) -> None:
+        """Repair saves edited before the fix in `_inv_append`: items sitting after the
+        game's trailing empty slot are swapped in front of it, so they show in-game."""
+        inv = self.slot.held
+        for lst, slot_at in ((inv.common, inv.common_slot), (inv.key, inv.key_slot)):
+            if (len(lst) >= 2 and lst[-1].handle not in (0, 0xFFFFFFFF)
+                    and lst[-2].handle in (0, 0xFFFFFFFF)):
+                n = len(lst)
+                lst[-2], lst[-1] = lst[-1], lst[-2]
+                for i in (n - 2, n - 1):
+                    e = lst[i]
+                    struct.pack_into("<3I", self.data, slot_at(i), e.handle, e.quantity, e.index)
+                self.log.append(f"moved {hex(lst[-2].handle)} in front of the trailing empty slot")
+        if not any(l.startswith("moved") for l in self.log):
+            self.log.append("inventory tail already fine")
+
     # --- checks ---------------------------------------------------------------------------
     def validate(self) -> list[str]:
         if len(self.data) != len(self.original):
@@ -277,6 +303,7 @@ def apply_operations(data: bytearray, slot_index: int, operations: list[dict]) -
         "set_runes": ed.set_runes, "add_runes": ed.add_runes, "runes_for_level": ed.runes_for_level,
         "set_talisman_slots": ed.set_talisman_slots, "add_item": ed.add_item,
         "unlock_grace": ed.unlock_grace, "unlock_map": ed.unlock_map,
+        "fix_inventory_tail": ed.fix_inventory_tail,
     }
     for n, op in enumerate(operations, 1):
         op = dict(op)
