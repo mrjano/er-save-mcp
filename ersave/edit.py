@@ -203,6 +203,30 @@ class Editor:
         self._add_acquired(it["id"] // 10000 * 10000)
         self.log.append(f"added {label}")
 
+    def upgrade_item(self, item: str | int, upgrade: int | None = None) -> None:
+        """Raise a weapon the character already holds to `upgrade` (default: its max).
+        Keeps its affinity and Ash of War; only the upgrade digits of the id change."""
+        it = db.resolve_item(item)
+        if db.kind(it) != "weapon":
+            raise EditError(f'{it["name"]} is not a weapon')
+        maxu = it["max_upgrade"]
+        target = maxu if upgrade is None else int(upgrade)
+        if not 0 <= target <= maxu:
+            raise EditError(f'{it["name"]} upgrades to +{maxu} at most')
+        held = {e.handle for e in self.slot.held.common}
+        hits = [g for g in self.slot.gaitems
+                if g.kind == H_WEAPON and g.handle in held and g.item_id // 10000 * 10000 == it["id"]]
+        if not hits:
+            raise EditError(f'{it["name"]} is not in the inventory')
+        # Several copies: take the least upgraded one.
+        g = min(hits, key=lambda x: x.item_id % 100)
+        cur = g.item_id % 100
+        if cur >= target:
+            raise EditError(f'{it["name"]} is already +{cur}')
+        struct.pack_into("<I", self.data, g.offset + 4, g.item_id - cur + target)
+        g.item_id = g.item_id - cur + target
+        self.log.append(f'upgraded {it["name"]} +{cur} -> +{target}')
+
     def _add_armor(self, it: dict) -> None:
         _, _, armor = self._orphans()
         if not armor:
@@ -303,7 +327,7 @@ def apply_operations(data: bytearray, slot_index: int, operations: list[dict]) -
         "set_runes": ed.set_runes, "add_runes": ed.add_runes, "runes_for_level": ed.runes_for_level,
         "set_talisman_slots": ed.set_talisman_slots, "add_item": ed.add_item,
         "unlock_grace": ed.unlock_grace, "unlock_map": ed.unlock_map,
-        "fix_inventory_tail": ed.fix_inventory_tail,
+        "fix_inventory_tail": ed.fix_inventory_tail, "upgrade_item": ed.upgrade_item,
     }
     for n, op in enumerate(operations, 1):
         op = dict(op)
