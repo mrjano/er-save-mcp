@@ -95,7 +95,15 @@ class Editor:
             pos = inv.common_slot(len(inv.common))
         entry_index = inv.next_acq * 2
         lst = inv.key if key else inv.common
-        if lst and lst[-1].handle in (0, 0xFFFFFFFF):
+        slot_at = inv.key_slot if key else inv.common_slot
+        hole = next((i for i, e in enumerate(lst[:-1]) if e.handle in (0, 0xFFFFFFFF)), None)
+        if hole is not None:
+            # A hole left by a used-up or dropped item: the game fills these first when
+            # you pick something up (seen 2026-10-08 and 2026-10-22), and it keeps the
+            # count as it is, so nothing new lands at the end of the list.
+            struct.pack_into("<3I", self.data, slot_at(hole), handle, qty, entry_index)
+            lst[hole] = InvEntry(handle, qty, entry_index)
+        elif lst and lst[-1].handle in (0, 0xFFFFFFFF):
             # The game keeps the last counted slot empty and doesn't show whatever is
             # there (seen 2026-10-16: items appended after it were invisible in-game).
             # Take that slot and move the empty one up behind the new entry.
@@ -147,14 +155,14 @@ class Editor:
 
     def add_item(self, item: str | int, quantity: int = 1, upgrade: int = 0,
                  affinity: str = "standard", ash_of_war: str | int | None = None,
-                 category: str | None = None) -> None:
+                 category: str | None = None, from_ash: str | int | None = None) -> None:
         it = db.resolve_item(item, category=category)
         kind = db.kind(it)
         if db.NEVER_OFFER & set(it["flags"]):
             raise EditError(f'{it["name"]} is flagged {it["flags"]}; refusing to add it')
         if kind == "weapon":
             for _ in range(int(quantity)):
-                self._add_weapon(it, int(upgrade), affinity, ash_of_war)
+                self._add_weapon(it, int(upgrade), affinity, ash_of_war, from_ash)
         elif kind == "armor":
             for _ in range(int(quantity)):
                 self._add_armor(it)
@@ -169,7 +177,21 @@ class Editor:
                 it = db.resolve_item(it["id"] + int(upgrade))
             self._add_goods(it, int(quantity), key=(kind == "key"))
 
-    def _add_weapon(self, it: dict, upgrade: int, affinity: str, ash_of_war) -> None:
+    def _loose_ash(self, ash) -> "GaItem":
+        """A held Ash of War that sits loose in the inventory (attached to no weapon)."""
+        want = db.resolve_item(ash, category="ashes_of_war")
+        s = self.slot
+        held = {e.handle for e in s.held.common}
+        snap = bytes(self.data[s.base:s.base + SLOT_SIZE])
+        inv_pos = {s.held.common_slot(i) for i in range(len(s.held.common))}
+        for g in s.gaitems:
+            if g.kind == H_AOW and g.handle in held and g.item_id == want["id"]:
+                refs = self._refs(snap, g.handle, g.offset)
+                if all(r in inv_pos for r in refs):      # only the inventory points at it
+                    return g, want
+        raise EditError(f'no loose {want["name"]} in the inventory (it may be attached to a weapon)')
+
+    def _add_weapon(self, it: dict, upgrade: int, affinity: str, ash_of_war, from_ash=None) -> None:
         maxu = it["max_upgrade"]
         if not 0 <= upgrade <= maxu:
             raise EditError(f'{it["name"]} upgrades to +{maxu} at most')
@@ -187,11 +209,26 @@ class Editor:
             aow = db.resolve_item(ash_of_war, category="ashes_of_war")
             if db.kind(aow) != "aow":
                 raise EditError(f'{aow["name"]} is not an Ash of War')
-            if not with_aow:
-                raise EditError("no free item-table entry for a weapon with an Ash of War")
-            g, ag = with_aow.pop(0)
-            struct.pack_into("<I", self.data, ag.offset + 4, aow["id"])
-            self._inv_append(ag.handle, 1, key=False)
+            if with_aow:
+                g, ag = with_aow.pop(0)
+                struct.pack_into("<I", self.data, ag.offset + 4, aow["id"])
+                self._inv_append(ag.handle, 1, key=False)
+            elif from_ash is not None:
+                # No spare weapon+ash pair: turn a loose ash the player gives up into the
+                # wanted one (its handle already exists, so no new handle is invented) and
+                # hang it on a spare plain weapon. Its inventory entry stays, as for any
+                # attached ash.
+                if not plain:
+                    raise EditError("no free item-table entry for a weapon")
+                ag, old = self._loose_ash(from_ash)
+                g = plain.pop(0)
+                struct.pack_into("<I", self.data, ag.offset + 4, aow["id"])
+                ag.item_id = aow["id"]
+                struct.pack_into("<I", self.data, g.offset + 16, ag.handle)
+                label += f' (from your {old["name"]})'
+            else:
+                raise EditError("no free item-table entry for a weapon with an Ash of War; "
+                                "pass from_ash with a loose ash to convert")
             self._add_acquired(aow["id"])
             label += f' with {aow["name"]}'
         else:

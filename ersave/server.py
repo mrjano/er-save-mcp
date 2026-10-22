@@ -80,9 +80,11 @@ OPERATIONS_DOC = """
 `operations` is a list of objects, applied in order:
 - {"op": "add_item", "item": "<exact name>", "quantity": 1, "upgrade": 0,
    "affinity": "standard|heavy|keen|quality|fire|flame art|lightning|sacred|magic|cold|poison|blood|occult",
-   "ash_of_war": "<name>", "category": "<to disambiguate>"}
+   "ash_of_war": "<name>", "category": "<to disambiguate>", "from_ash": "<loose ash to give up>"}
    Weapons: upgrade up to their max (+25 regular, +10 somber). An affinity needs an Ash of
    War; somber (unique) weapons can't take one. Spirit ashes: upgrade = +N.
+   If there is no spare weapon+ash entry, from_ash converts a loose ash the player holds
+   (ask them which one they give up) into the wanted ash.
    Goods already held are topped up to the game's cap.
 - {"op": "runes_for_level", "target_level": 150}   adds exactly the runes to get there
 - {"op": "add_runes", "runes": 100000} / {"op": "set_runes", "runes": 0}
